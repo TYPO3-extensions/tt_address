@@ -33,7 +33,7 @@ class AddFilesToSelector {
 	function main(&$params,&$pObj)	{
 
 		// get the current page ID
-		$thePageId = $params['row']['pid'];
+		$thePageId = $params['flexParentDatabaseRow']['pid'];
 
 		/** @var TemplateService $template */
 		$template = GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\TypoScript\\TemplateService');
