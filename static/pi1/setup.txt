@@ -2,13 +2,13 @@ plugin.tx_ttaddress_pi1 = USER
 plugin.tx_ttaddress_pi1 {
 	userFunc = tx_ttaddress_pi1->main
 
-	templatePath = EXT:tt_address/res/
-	defaultTemplateFileName = default_hcard.htm
-	pidList = 0
-	recursive = 0
-	sortByColumn = name
-	sortOrder = ASC
-	listMaxItems = 0
+	templatePath = {$plugin.tx_ttaddress_pi1.templatePath}
+	defaultTemplateFileName = {$plugin.tx_ttaddress_pi1.defaultTemplateFileName}
+	pidList = {$plugin.tx_ttaddress_pi1.pidList}
+	recursive = {$plugin.tx_ttaddress_pi1.recursive}
+	sortByColumn = {$plugin.tx_ttaddress_pi1.sortByColumn}
+	sortOrder = {$plugin.tx_ttaddress_pi1.sortOrder}
+	listMaxItems = {$plugin.tx_ttaddress_pi1.listMaxItems}
 
 	templates.default {
 		# supports the hcard microformats standard

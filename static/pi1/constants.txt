@@ -1,0 +1,25 @@
+###
+# These are the default TS-constants for tt_address
+##
+plugin.tx_ttaddress_pi1{
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.templateFile
+templatePath = EXT:tt_address/res/
+ 
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.defaultTemplateFileName
+defaultTemplateFileName = default_hcard.htm
+
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.pidList
+pidList = 0
+
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.recursive
+recursive = 0
+
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.sortByColumn
+sortByColumn = name
+
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.sortOrder
+sortOrder = ASC
+
+ # cat=plugin_tt_address_basic/file/1; type=text; label=LLL:EXT:tt_address/Resources/Private/Language/locallang.xml:tsce.listMaxItems
+listMaxItems = 0
+}

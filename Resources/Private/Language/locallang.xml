@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>language labels for tt_address</description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:tt_address/Resources/Private/Language/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="pi_title"></label>
+			<label index="pi_plus_wiz_description"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi_title">Address</label>
+			<label index="tsce.templateFile">Template File: HTML-template which is used to display adresses (e.g.: "fileadmin/templates/defaut_hcard.html").</label>
+			<label index="tsce.defaultTemplateFileName">Default Template File Name: The file name of your default template.</label>
+			<label index="tsce.pidList">Starting Point (pid_list): The PID of the page (or comma separated list pf PIDs) where your adresses are stored. Note that getting the pidList can be very performance intensive if you use a high recursion level (plugin.tt_address.recursive) in a big pagetree. </label>
+			<label index="tsce.recursive">Recursive level: extend "pidList" by the number of recursive levels.</label>
+			<label index="tsce.sortByColumn">Sort by Column: By wich column of the database should the adresses sorted (e.g: name, first_name, last_name, city, zip, country)</label>
+			<label index="tsce.sortOrder">Sort Order: Set how shall the adresses sorted in the frontend by default. (ASC, DSC)</label>
+			<label index="tsce.listMaxItems">List Max Items: Set how many adresses should be shown in the frontend by default</label>
+		</languageKey>
+		
+		<languageKey index="de" type="array">
+			<label index="pi_title">Adressen</label>	
+			<label index="tsce.templateFile">Template File: HTML-template which is used to display adresses (e.g.: "fileadmin/templates/defaut_hcard.html").</label>
+		</languageKey>
+		
+	</data>
+</T3locallang>
