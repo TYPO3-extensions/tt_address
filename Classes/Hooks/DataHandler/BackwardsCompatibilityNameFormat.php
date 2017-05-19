@@ -54,9 +54,7 @@ class BackwardsCompatibilityNameFormat
                     $newRecord['last_name']
                 ));
 
-                if (!empty($combinedName)) {
-                    $fieldArray['name'] = $combinedName;
-                }
+                $fieldArray['name'] = $combinedName;
             }
         }
     }
